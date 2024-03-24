@@ -1,0 +1,284 @@
+@font-face {
+  font-family: Poppins;
+  src: url(./aseets/fonts/Poppins/Poppins-Regular.ttf);
+}
+* {
+  margin: 0px !important;
+  padding: 0px !important;
+  box-sizing: border-box !important;
+}
+/* --color section-- */
+:root {
+  --app-orangered: orangered;
+}
+html {
+  scroll-behavior: smooth !important;
+}
+/* --navbar start */
+nav {
+  width: 100% !important;
+  background-color: orangered !important;
+  position: fixed !important;
+  z-index: 1 !important;
+}
+
+.navbar-container {
+  padding: 5px !important;
+}
+.nav-content {
+  color: white !important;
+  margin: 20px !important;
+  font-family: poppins;
+  font-size: 19px !important;
+  text-transform: uppercase;
+  font-style: oblique;
+}
+.navbar-heading {
+  margin-left: 20px !important;
+  text-transform: uppercase;
+  font-family: poppins;
+  font-size: 20px !important;
+  color: white !important;
+  text-shadow: 10px 5px 10px black !important;
+}
+.nav-content:hover {
+  color: black !important;
+  text-decoration: underline !important;
+  padding: 1px !important;
+}
+@media only screen and (max-width:992px){
+  .navbar{
+    padding: 10px !important;
+  }
+  .nav-content{
+    width: 100% !important;
+    background-color: black !important;
+    margin: auto !important;
+    margin: 10px !important;
+    text-align: center !important;
+    font-size: 20px !important;
+  }
+}
+/* --navbar end-- */
+/* --card section-- */
+.card-section {
+  display: inline !important;
+  text-align: center !important;
+  margin: 10px !important;
+}
+.card-content {
+  background-color: orangered !important;
+  padding: 10px !important;
+}
+.card-content h1 {
+  text-transform: uppercase !important;
+  color: #ffff;
+  text-shadow: -5px 5px 10px black !important;
+}
+.styled-card {
+  border: none !important;
+  box-shadow: -5px -5px 10px black !important;
+  margin: 10px !important;
+  height: 100px !important;
+}
+.styled-card:hover {
+  transform: scaleX(1.2) !important;
+  transition: 1s !important;
+}
+.card-heading {
+  color: red !important;
+  font-family: poppins;
+  font-size: 30px !important;
+  margin: 5px !important  ;
+  font-style: italic;
+  text-transform: uppercase !important ;
+}
+.card-panel {
+  color: black !important;
+  text-align: center;
+  padding: 5px !important;
+  margin: 10px !important;
+  font-family: poppins !important ;
+  line-height: 30px;
+  font-style: italic !important;
+  font-weight: 700;
+  font-size: 20px !important;
+  color: darkkhaki !important;
+}
+
+.card-btn {
+  text-align: center !important;
+}
+.card-btn .btn {
+  display: inline-block !important;
+  width: 100px !important;
+  padding: 5px !important;
+  margin: 10px !important;
+  text-transform: uppercase !important;
+  border-radius: 10px !important;
+  font-family: poppins !important;
+  background-color: red !important;
+  color: black !important;
+  font-size: 18px !important;
+  font-weight: 700;
+}
+.btn:hover {
+  border-color: white !important;
+  color: white !important;
+  background-color: none !important;
+}
+
+/* --card section end-- */
+/* --evtra content-- */
+.extra-content img {
+  height: 500px !important;
+  object-fit: cover !important;
+}
+.additional-info {
+  font-family: poppins;
+  font-size: 30px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  color: var(--app-orangered) !important;
+
+}
+.further-info {
+  margin-top: 20px !important;
+  font-family: poppins;
+  font-size: 20px important;
+  font-style: italic !important ;
+}
+
+/* --services section start */
+.card-container {
+  box-shadow: 0px 0px 10px var(--app-orangered) !important;
+}
+.card-box {
+  text-transform: uppercase !important;
+  font-family: poppins !important;
+  font-size: 25px !important;
+  font-weight: 700 !important;
+}
+.custom-card {
+  padding: 10px !important;
+  font-family: poppins;
+  font-size: 15px !important;
+}
+.btn-servives {
+  padding: 10px !important;
+  border-radius: 10px !important;
+  background-color: var(--app-orangered) !important;
+  text-transform: uppercase !important;
+  color: #ffff !important;
+  font-family: poppins !important;
+  font-size: 18px !important;
+}
+.btn-servives:hover {
+  transform: scale(1.2);
+  transition: 3s;
+}
+/* --contact form-- */
+form {
+  width: 40% !important;
+  margin: auto !important;
+  border: 1px solid black !important;
+  padding: 20px !important;
+  margin-top: 20px !important;
+  border-top-left-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+  border-color: var(--app-orangered) !important;
+  box-shadow: 0px 0px 20px var(--app-orangered) !important;
+  /* box-shadow: 0px 0px 50px black !important; */
+}
+.input-label {
+  margin-bottom: 10px !important;
+  font-size: 30px !important;
+  font-family: poppins !important;
+  text-transform: uppercase !important;
+  color: crimson !important;
+  text-shadow: -5px 5px 20px black !important;
+}
+.custom-form {
+  width: 100% !important;
+  height: 40px !important;
+  border-radius: 30px !important;
+  border-color: var(--app-orangered) !important;
+}
+.btn-form-button {
+  padding: 10px !important;
+  width: 100px !important;
+  background-color: var(--app-orangered) !important;
+  border: none !important;
+  border-radius: 10px !important;
+  font-family: poppins !important;
+  font-size: 20px !important;
+  text-transform: uppercase !important;
+}
+.btn-form-button:hover {
+  background-color: black !important;
+  border: 1px solid var(--app-orangered) !important;
+  color: white !important;
+}
+/* --form media quary */
+@media only screen and (max-width: 500px) {
+  form {
+    width: 100% !important;
+    border-top-right-radius: 10% !important;
+    margin: 0px !important;
+  }
+}
+/* --services section */
+.restaurant-menu {
+  background-color: orange !important;
+}
+.resturant-card {
+  margin: 20px !important;
+  padding: 10px !important;
+  box-shadow: 0px 0px 10px var(--app-orangered) !important;
+  /* height: 250px !important; */
+}
+.menu-heading {
+  font-family: poppins !important;
+  font-size: 25px !important;
+  text-align: center !important;
+  font-weight: 700 !important;
+}
+.menu-list {
+  text-align: center !important;
+  margin: 5px !important;
+  font-family: poppins !important;
+  font-size: 15px !important;
+  font-style: italic !important;
+  font-weight: 700;
+  margin-top: 10px !important;
+}
+.resturant-card:hover {
+  transform: scale(0.5);
+  transition: 15s !important;
+  z-index: 1 !important;
+}
+
+/* ---footer section */
+.media-icon {
+  text-align: center !important;
+}
+.icons {
+  font-size: 30px !important;
+  /* margin: 50px !important; */
+}
+.fa-facebook-f {
+  color: blue !important;
+}
+.fa-twitter {
+  color: skyblue !important;
+}
+.fa-google {
+  color: red !important;
+}
+.fa-instagram {
+  color: darkorchid !important;
+}
+.fa-linkedin-in {
+  color: navy !important;
+  border: none !important;
+}
